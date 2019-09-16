@@ -1,3 +1,71 @@
+$(InstanceName)
+
+DBCC CHECKIDENT('[table_name]', RESEED, [new_reseed_value])
+
+DBCC CHECKIDENT('[NUCLEUS1908_IMH].[dbo].[T_BED]', RESEED, 0);
+DBCC CHECKIDENT('[NUCLEUS1908_IMH].[dbo].[T_WARD]', RESEED, 0);
+	  DBCC CHECKIDENT
+
+EXEC sp_msforeachtable "ALTER TABLE ? NOCHECK CONSTRAINT all"
+
+Sys.Tables Version
+
+DECLARE @sql NVARCHAR(max)=''
+
+SELECT @sql += ' Drop table ' + QUOTENAME(s.NAME) + '.' + QUOTENAME(t.NAME) + '; '
+FROM   sys.tables t
+       JOIN sys.schemas s
+         ON t.[schema_id] = s.[schema_id]
+WHERE  t.type = 'U'
+
+Exec sp_executesql @sql
+
+
+
+Use the INFORMATION_SCHEMA.TABLES view to get the list of tables. Generate Drop scripts in the select statement and drop it using Dynamic SQL:
+
+DECLARE @sql NVARCHAR(max)=''
+
+SELECT @sql += ' Drop table ' + QUOTENAME(TABLE_SCHEMA) + '.'+ QUOTENAME(TABLE_NAME) + '; '
+FROM   INFORMATION_SCHEMA.TABLES
+WHERE  TABLE_TYPE = 'BASE TABLE'
+
+Exec Sp_executesql @sql
+
+2019-08-30 16:50:50.353
+
+
+ALTER TABLE  [dbo].[T_BED]
+ADD [IMAGE] [varbinary](max)  NULL;
+
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files
+
+C:\Users\HOL\Application Data\Microsoft\VisualStudio\14.0\ProjectTemplatesCache
+
+
+8626C884-1EB2-4FB7-8793-FCED99BCE270
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 uowmail.edu.au
 https://www.google.com/search?ei=fyFAXKzWCZbp9QObpKi4AQ&q=audio+video+processing+ffmpeg+java&oq=audio+video+processing+ffmpeg+java&gs_l=psy-ab.3..33i160.5683.6499..6743...0.0..0.109.367.4j1......0....1..gws-wiz.......0i71j33i22i29i30j33i21.fhaU56FND5Y
 rsa cryptographic uow 361
