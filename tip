@@ -2,8 +2,8 @@ $(InstanceName)
 
 DBCC CHECKIDENT('[table_name]', RESEED, [new_reseed_value])
 
-DBCC CHECKIDENT('[NUCLEUS1908_IMH].[dbo].[T_BED]', RESEED, 0);
-DBCC CHECKIDENT('[NUCLEUS1908_IMH].[dbo].[T_WARD]', RESEED, 0);
+DBCC CHECKIDENT('[servername].[dbo].[Datebasename]', RESEED, 0);
+DBCC CHECKIDENT('[servername].[dbo].[Datebasename]', RESEED, 0);
 	  DBCC CHECKIDENT
 
 EXEC sp_msforeachtable "ALTER TABLE ? NOCHECK CONSTRAINT all"
