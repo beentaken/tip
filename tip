@@ -5,7 +5,7 @@ sg.digipen.edu
 https://open.163.com/
 Async ValueTask Pooling in .NET 5
 $(InstanceName)
-
+https://www.youtube.com/watch?v=zH_omFPqMO4
 DBCC CHECKIDENT('[table_name]', RESEED, [new_reseed_value])
 
 DBCC CHECKIDENT('[servername].[dbo].[Datebasename]', RESEED, 0);
