@@ -7,7 +7,7 @@ Async ValueTask Pooling in .NET 5
 $(InstanceName)
 https://www.youtube.com/watch?v=zH_omFPqMO4
 DBCC CHECKIDENT('[table_name]', RESEED, [new_reseed_value])
-
+https://docs.microsoft.com/en-us/visualstudio/windows/?f1url=https%3A%2F%2Fmsdn.microsoft.com%2Fquery%2Fdev15.query%3FappId%3DDev15IDEF1%26l%3Den-US%26k%3Dk(MSDNSTART)%26rd%3Dtrue&view=vs-2019
 DBCC CHECKIDENT('[servername].[dbo].[Datebasename]', RESEED, 0);
 DBCC CHECKIDENT('[servername].[dbo].[Datebasename]', RESEED, 0);
 	  DBCC CHECKIDENT
@@ -124,8 +124,14 @@ https://kb.cscc.edu/article/technology-equipment-and-software-costs-687.html
 https://support.office.com/en-us/article/recall-or-replace-an-email-message-that-you-sent-35027f88-d655-4554-b4f8-6c0729a723a0#ID0EAABAAA=Office_2007
 https://docs.microsoft.com/en-us/outlook/add-ins/
 
-CREATE TEMPORARY TABLE temporary_table AS SELECT * FROM original_table WHERE <conditions>;
+https://www.google.com/search?client=firefox-b-d&ei=IpebXomlAtrB3LUPtdGv2Ag&q=stored+procedure+ms+sql&oq=stored+procedure+ms+sql&gs_lcp=CgZwc3ktYWIQAzICCAAyAggAMgQIABAeMgQIABAeMgQIABAeMgQIABAeMgQIABAeMgYIABAKEB4yBAgAEB4yBggAEAUQHjoECAAQRzoECAAQQzoHCAAQgwEQQzoFCAAQgwE6CAgAEIMBEJECOgUIABCRAjoECAAQCjoGCAAQBxAeOggIABAHEAoQHlCT3u8CWIud8AJg0J_wAmgDcAJ4AIABQogBhgWSAQIxNZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwiJvuz2mfPoAhXaILcAHbXoC4sQ4dUDCAs&uact=5
+https://www.sqlshack.com/sql-server-stored-procedures-for-beginners/
+javascript regex tester
+https://www.mssqltips.com/sqlservertutorial/160/sql-server-stored-procedure-tutorial/
+https://www.google.com/search?client=firefox-b-d&q=ms+stored+procedures
 
+CREATE TEMPORARY TABLE temporary_table AS SELECT * FROM original_table WHERE <conditions>;
+javascript regex beginning of stringwith .
 UPDATE temporary_table SET <auto_inc_field>=NULL, <fieldx>=<valuex>, <fieldy>=<valuey>, ...;
 
 INSERT INTO original_table SELECT * FROM temporary_table;
