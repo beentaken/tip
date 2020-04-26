@@ -12,6 +12,8 @@ DBCC CHECKIDENT('[servername].[dbo].[Datebasename]', RESEED, 0);
 DBCC CHECKIDENT('[servername].[dbo].[Datebasename]', RESEED, 0);
 	  DBCC CHECKIDENT
 
+algoexpert
+.io
 EXEC sp_msforeachtable "ALTER TABLE ? NOCHECK CONSTRAINT all"
 
 Sys.Tables Version
