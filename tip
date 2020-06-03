@@ -13,7 +13,7 @@ https://docs.microsoft.com/en-us/visualstudio/windows/?f1url=https%3A%2F%2Fmsdn.
 DBCC CHECKIDENT('[servername].[dbo].[Datebasename]', RESEED, 0);
 DBCC CHECKIDENT('[servername].[dbo].[Datebasename]', RESEED, 0);
 	  DBCC CHECKIDENT
-
+C++ digipen
 algoexpert
 .io
 EXEC sp_msforeachtable "ALTER TABLE ? NOCHECK CONSTRAINT all"
