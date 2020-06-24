@@ -6,8 +6,8 @@ Client -> api
 Katalon  -> recoding
 Selenium  -> recoding
 Font Finder  -> front check
-Full Page Screen Capture chrome
-
+Full Page Screen Capture -> chrome
+One Click Full Page Screenshot -> chrome
 Font Awesome
 
 
