@@ -108,3 +108,18 @@ javascript regex beginning of stringwith .
 UPDATE temporary_table SET <auto_inc_field>=NULL, <fieldx>=<valuex>, <fieldy>=<valuey>, ...;
 
 INSERT INTO original_table SELECT * FROM temporary_table;
+
+
+
+Sub Macro1()
+'
+' Macro1 Macro
+'
+
+'
+    Cells.Replace What:="ac", Replacement:="z", LookAt:=xlPart, SearchOrder:= _
+        xlByRows, MatchCase:=False, SearchFormat:=False, ReplaceFormat:=False, _
+        FormulaVersion:=xlReplaceFormula2
+    Application.WindowState = xlMinimized
+    Application.WindowState = xlNormal
+End Sub
